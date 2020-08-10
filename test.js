@@ -7,6 +7,7 @@ describe("Counter",() => {
 
   it("renders the correct markup",() => {
     expect(wrapper.html()).toContain('<span class="count">0</span>')
+    console.log("test")
   })
 
   it("has a button", () => {
